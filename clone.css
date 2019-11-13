@@ -1,0 +1,132 @@
+body{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+}
+img{
+	height: 220px;
+	width: 320px;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding-top: 50px;
+}
+
+#top{
+	text-align: right;
+	word-spacing: 0.7em;
+	padding-top: 20px;
+}
+
+#searchBox{
+	border: 1px solid rgba(0,0,0,0.1);
+	border-radius: 25px;
+	width: 484px;
+	height: 46px;
+	text-align: center;
+	display: inline-block;
+}
+
+#searchBox:hover{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.17);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.17);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.17);
+}
+
+#searchBox:focus{
+	-webkit-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.17);
+	-moz-box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.17);
+	box-shadow: 0px 0px 3px 1px rgba(0,0,0,0.17);
+}
+
+#searchLine{
+	text-align: center;
+}
+
+input[type=search]{
+	padding-top: 13px;
+	width: 90%;
+	padding-bottom: 8px;
+	outline: none;
+	border: none;
+	font-size: 16px;
+	padding-left: 10px;
+}
+
+#buttons{
+	margin-top: 20px;
+	text-align: center;
+}
+
+#languageOptions{
+	text-align: center;
+}
+
+#bottom{
+	border: 1px solid rgba(0,0,0,0.1);
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	background-color: #f0f0f0;
+}
+
+#country{
+	padding-bottom: 10px; 
+	border-bottom: 1px solid rgba(0,0,0,0.1);
+	color: rgba(0,0,0,0.54);
+}
+
+.text{
+	padding-left: 25px;
+}
+
+.links{
+	padding-left: 27px;
+}
+
+a{
+	color: rgba(0,0,0,0.75);
+	text-decoration: none;
+}
+
+a:hover{
+	text-decoration: underline;	
+}
+
+.language{
+	color: blue;
+	text-decoration: underline;
+}
+
+.searchEvents{
+	background-color: #f2f2f2;
+	margin: 11px 4px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 18px;
+	padding-right: 18px;
+	border: 1px solid rgba(0,0,0,0.05);
+	border-radius: 5px;
+}
+
+.searchEvents:hover{
+	border: 1px solid rgba(0,0,0,0.3);
+}
+
+#signIn{
+	margin-right: 15px;
+	background-color: #4285f4;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+}
+
+.fas{
+	color: rgba(0,0,0,0.54);
+}
+
+#apps{
+	font-size: 18px;
+}
